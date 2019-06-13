@@ -1,6 +1,6 @@
 # Chess
 
-![](Chess v2/img/ex1.png)
+![](Chess%20v2/img/ex1.png)
 
 Chess game with GUI made with SFML. 
 
