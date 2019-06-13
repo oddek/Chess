@@ -16,4 +16,4 @@ Genererer FEN-notasjon i hver stilling og kan sende forespørsler til stockfish 
 
 Kent Odde, June 2019
 
-![](Chess\ v2/img/ex2.png)
+![](Chess%20v2/img/ex2.png)
