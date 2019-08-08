@@ -13,6 +13,8 @@ Når det er sagt er logikken bak en passant og til en viss grad rokade grusomt s
 
 Genererer FEN-notasjon i hver stilling og kan sende forespørsler til [stockfish](https://stockfishchess.org/) vha CreateProcess(). etter beste trekk og evaluering av stillingen. Stockfish.h som kommuniserer med stockfish.exe er en modifisert versjon av et exsempel jeg fant et sted, men finner ikke igjen linken. 
 
+[Executable](http://odde.ml)
+
 
 ###### Kent Odde, June 2019
 
