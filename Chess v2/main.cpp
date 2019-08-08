@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include <Windows.h>
 #include "Board.h"
 #include "Stockfish.h"
 
@@ -17,6 +18,7 @@ bool check_game_over(sf::RenderWindow& window, Board& board, sf::Text& eog_text)
 
 int main()
 {
+	ShowWindow(GetConsoleWindow(), SW_HIDE);
 	//Player color
 	bool player_is_white = true;
 	bool game_over = false;
@@ -201,7 +203,10 @@ int main()
 		{
 			//Close window/////////////////////////////////////////////
 			if (event.type == sf::Event::Closed)
+			{
 				window.close();
+				return 0;
+			}
 			//RESIZE window///////////////////////////////////////////
 			if (event.type == sf::Event::Resized)
 			{
